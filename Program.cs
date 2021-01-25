@@ -9,15 +9,19 @@ namespace ThePetStore
         {
             //Console.WriteLine("Hello World!");
 
-            //Turtle turtle1 = new Turtle("Mertle", 72);
-            //turtle1.Eat();
-            //turtle1.Eat("Lettuce");
-            //turtle1.ShowTime("bar-mitzvah");
-
+            var babyTurtle = new Turtle("Jim");
+            Turtle turtle = new Turtle("Mertle", 72);
+            Console.WriteLine(turtle.Description);
+            turtle.Eat();
+            turtle.Eat("Lettuce");
+            turtle.ShowTime("bar-mitzvah");
+            turtle.ShowTime("birthday");
+            babyTurtle.ShowTime("birthday");
 
             Scorpion scorpion = new Scorpion("Steven");
             scorpion.Attack();
             //Console.WriteLine($"{turtle1.Name} is {turtle1.Age } years old. {turtle1.Size}");
+            Console.ReadLine();
         }
     }
 }

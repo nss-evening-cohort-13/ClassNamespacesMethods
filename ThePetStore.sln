@@ -1,6 +1,7 @@
-
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThePetStore", "ThePetStore.csproj", "{390CB0D6-9E6B-44BD-922F-C6D2F8732B78}"
 EndProject
 Global
@@ -9,9 +10,15 @@ Global
 		Release|anycpu = Release|anycpu
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{390CB0D6-9E6B-44BD-922F-C6D2F8732B78}.Debug|anycpu.ActiveCfg = Debug|anycpu
-		{390CB0D6-9E6B-44BD-922F-C6D2F8732B78}.Debug|anycpu.Build.0 = Debug|anycpu
+		{390CB0D6-9E6B-44BD-922F-C6D2F8732B78}.Debug|anycpu.ActiveCfg = Debug|Any CPU
+		{390CB0D6-9E6B-44BD-922F-C6D2F8732B78}.Debug|anycpu.Build.0 = Debug|Any CPU
 		{390CB0D6-9E6B-44BD-922F-C6D2F8732B78}.Release|anycpu.ActiveCfg = Release|anycpu
 		{390CB0D6-9E6B-44BD-922F-C6D2F8732B78}.Release|anycpu.Build.0 = Release|anycpu
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2FA39347-A109-4A4C-9B01-FB4A349DF4D0}
 	EndGlobalSection
 EndGlobal
